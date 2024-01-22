@@ -13,6 +13,8 @@ seed_hash = binascii.unhexlify('63eceef7919087068ac5d1b7faffa23fc90a58ad0ca89ecb
 
 pyrx.get_rx_hash("raiyan", seed_hash, 1)
 
+print("start hash")
+
 for x in range(5):
     m = "Hello RandomX {}".format(x)
     print("Hashing: {}".format(m))
